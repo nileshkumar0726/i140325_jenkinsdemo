@@ -12,6 +12,7 @@ public class TestMessage {
 	public void test_welcome_message() {
 
 		MessageGenerator obj = new MessageGenerator();
+		fail("Not Implemented");
 		assertEquals("welcome", obj.getWelcomeMessage());
 
 	}
