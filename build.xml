@@ -94,7 +94,7 @@
 			</batchtest>
 			-->
 			
-			<test name="com.mkyong.test.TestMessage" 
+			<test name="com.mkyong.test.TestMessage2" 
 				haltonfailure="no" todir="${report.dir}" outfile="result">
 				<formatter type="plain" />
 				<formatter type="xml" />
