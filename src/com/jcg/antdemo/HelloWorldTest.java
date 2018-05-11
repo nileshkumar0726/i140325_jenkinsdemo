@@ -21,7 +21,7 @@ public class HelloWorldTest
 		public void testAdd()
 		{
 				HelloWorld hw = new HelloWorld();
-				assertEquals(5, hw.add(3, 2));
+				assertEquals(10, hw.add(3, 2));
 		}
 
 }
