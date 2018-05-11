@@ -82,7 +82,7 @@
 			<!-- This classpath must include junit.jar -->
 			<classpath refid="test.path" />
 			<!-- classes for test -->
-			<classpath location="${web.classes.dir}" />
+			<classpath location="${src.test}" />
 			
 			<!--
 			<formatter type="xml" />
