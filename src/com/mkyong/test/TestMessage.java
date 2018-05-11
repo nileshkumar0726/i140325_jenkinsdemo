@@ -13,7 +13,6 @@ public class TestMessage {
 
 		MessageGenerator obj = new MessageGenerator();
 		assertNotEquals("welcome", obj.getWelcomeMessage());
-		syntaxerror
 
 	}
  
