@@ -12,7 +12,8 @@ public class TestMessage2 {
 	public void test_welcome_message_2() {
 
 		MessageGenerator obj = new MessageGenerator();
-		assertEquals("welcome", obj.getWelcomeMessage());
+		
+		assertNotEquals("welcome", obj.getWelcomeMessage());
 
 	}
  
