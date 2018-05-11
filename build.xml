@@ -72,7 +72,7 @@
 		<!--<pathconvert property="classpathProp" refid="junit.class.path" />
 		<echo>Classpath is ${classpathProp}</echo>-->
 
-		<junit printsummary="yes" haltonfailure="yes">
+		<junit printsummary="yes" haltonfailure="yes" fork="true">
 
 			<!--
 			<classpath location="lib/junit-4.11.jar" />
@@ -95,7 +95,11 @@
 			-->
 			
 			<test name="com.mkyong.test.TestMessage" 
-				haltonfailure="yes" todir="${report.dir}" outfile="result">
+				<formatter type="plain" />
+				<formatter type="xml" />
+			</test>
+			
+			<test name="com.mkyong.test.TestMessage2" 
 				<formatter type="plain" />
 				<formatter type="xml" />
 			</test>
