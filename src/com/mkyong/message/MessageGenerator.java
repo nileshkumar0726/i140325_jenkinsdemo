@@ -7,6 +7,7 @@ public class MessageGenerator {
 
 	public String getWelcomeMessage() {
  
+		error
 		return "welcome";
  
 	}
