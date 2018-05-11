@@ -6,8 +6,8 @@
 	<!-- Project Structure -->
 	<property name="jdk.version" value="1.8" />
 	<property name="projectName" value="WebProject" />
-	<property name="src.dir" location="src/com/mykong" />
-	<property name="test.dir" location="src/com/mykong" />
+	<property name="src.dir" location="src/com/mykong/controller" />
+	<property name="test.dir" location="src/com/mykong/test" />
 	<property name="report.dir" location="report" />
 
 	<property name="resources.dir" location="resources" />
@@ -82,7 +82,7 @@
 			<!-- This classpath must include junit.jar -->
 			<classpath refid="test.path" />
 			<!-- classes for test -->
-			<classpath location="${src.test}" />
+			<classpath location="${test.dir}" />
 			
 			<!--
 			<formatter type="xml" />
